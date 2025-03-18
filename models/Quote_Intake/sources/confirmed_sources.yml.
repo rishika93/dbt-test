@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: confirmed
+    schema: confirmed
+    tables:
+      - name: quote_intake_metrics

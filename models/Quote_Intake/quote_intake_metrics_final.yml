@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: quote_intake_metrics_final
+    description: "Final transformed metrics table, pivoting metric_key into columns, outputted to consumption.quote_intake_metrics_final."
+    columns:
+      - name: service_name
+        description: "Name of the service."
+      - name: timestamp
+        description: "Timestamp of the metric event."
+      - name: broker_name
+        description: "Name of the broker."
+      - name: employer_group_id
+        description: "Employer group identifier."
+      - name: total_employees
+        description: "Total number of employees."
+      - name: avg_age
+        description: "Average age of employees."
+      - name: plan_deductible
+        description: "Plan deductible amount."
